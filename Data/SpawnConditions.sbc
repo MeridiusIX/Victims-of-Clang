@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnConditions-ZombieHorde</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [CreatureSpawn:true]
+        [CreatureChance:20]
+        [CreatureIds:Space_Zombie]
+        [AiEnabledModBots:true]
+        [AiEnabledRole:ZOMBIE]
+        [AiEnabledReady:true]
+        [MinCreatureCount:10]
+        [MaxCreatureCount:10]
+        [MinCreatureDistance:150]
+        [MaxCreatureDistance:200]
+        [FactionOwner:SPID]
+
+        [UseDayOrNightOnly:true]
+        [SpawnOnlyAtNight:true]
+
+        [PlaySoundAtSpawnTriggerPosition:true]
+        [SpawnTriggerPositionSoundId:VictimsOfClang-Audio-Horde]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnConditions-ZombieNight</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [CreatureSpawn:true]
+        [CreatureIds:Space_Zombie]
+        [AiEnabledModBots:true]
+        [AiEnabledRole:ZOMBIE]
+        [AiEnabledReady:true]
+        [MinCreatureCount:2]
+        [MaxCreatureCount:5]
+        [MinCreatureDistance:150]
+        [MaxCreatureDistance:200]
+        [FactionOwner:SPID]
+
+        [UseDayOrNightOnly:true]
+        [SpawnOnlyAtNight:true]
+
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnConditions-ZombieWeather</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [CreatureSpawn:true]
+        [CreatureIds:Space_Zombie]
+        [AiEnabledModBots:true]
+        [AiEnabledRole:ZOMBIE]
+        [AiEnabledReady:true]
+        [MinCreatureCount:3]
+        [MaxCreatureCount:6]
+        [MinCreatureDistance:40]
+        [MaxCreatureDistance:60]
+        [FactionOwner:SPID]
+
+        [UseWeatherSpawning:true]
+        [AllowedWeatherSystems:FogHeavy]
+        [AllowedWeatherSystems:AlienFogHeavy]
+        [AllowedWeatherSystems:SandStormHeavy]
+        [AllowedWeatherSystems:ThunderstormHeavy]
+        [AllowedWeatherSystems:AlienThunderstormHeavy]
+        [AllowedWeatherSystems:Dust]
+        [AllowedWeatherSystems:MarsStormHeavy]
+        [AllowedWeatherSystems:SnowHeavy]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnConditions-GhostNight</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [CreatureSpawn:true]
+        [CreatureIds:Ghost_Bot]
+        [AiEnabledModBots:true]
+        [AiEnabledRole:GHOST]
+        [AiEnabledReady:true]
+        [MinCreatureCount:2]
+        [MaxCreatureCount:5]
+        [MinCreatureDistance:150]
+        [MaxCreatureDistance:200]
+        [FactionOwner:SPID]
+
+        [UseDayOrNightOnly:true]
+        [SpawnOnlyAtNight:true]
+
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnConditions-GhostWeather</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [CreatureSpawn:true]
+        [CreatureIds:Ghost_Bot]
+        [AiEnabledModBots:true]
+        [AiEnabledRole:GHOST]
+        [AiEnabledReady:true]
+        [MinCreatureCount:3]
+        [MaxCreatureCount:6]
+        [MinCreatureDistance:40]
+        [MaxCreatureDistance:60]
+        [FactionOwner:SPID]
+
+        [UseWeatherSpawning:true]
+        [AllowedWeatherSystems:FogHeavy]
+        [AllowedWeatherSystems:AlienFogHeavy]
+        [AllowedWeatherSystems:SandStormHeavy]
+        [AllowedWeatherSystems:ThunderstormHeavy]
+        [AllowedWeatherSystems:AlienThunderstormHeavy]
+        [AllowedWeatherSystems:Dust]
+        [AllowedWeatherSystems:MarsStormHeavy]
+        [AllowedWeatherSystems:SnowHeavy]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

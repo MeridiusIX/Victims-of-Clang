@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+    <Id>
+      <TypeId>SpawnGroupDefinition</TypeId>
+      <SubtypeId>VictimsOfClang-SpawnGroup-ZombieHorde</SubtypeId>
+    </Id>
+    <Description>
+
+      [Modular Encounters SpawnGroup]
+
+      [SpawnConditionsProfiles:VictimsOfClang-SpawnConditions-ZombieHorde]
+
+    </Description>
+    <IsPirate>true</IsPirate>
+    <!--Do not edit-->
+    <Frequency>1.0</Frequency>
+    <Prefabs>
+      <Prefab SubtypeId="MES-CreaturePrefabDummy">
+        <Position>
+          <X>0.0</X>
+          <Y>0.0</Y>
+          <Z>0.0</Z>
+        </Position>
+        <Speed>25</Speed>
+        <Behaviour></Behaviour>
+      </Prefab>
+    </Prefabs>
+    </SpawnGroup>
+    
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnGroup-Zombie</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:VictimsOfClang-SpawnConditions-ZombieNight]
+        [SpawnConditionsProfiles:VictimsOfClang-SpawnConditions-ZombieWeather]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <!--Do not edit-->
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour></Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VictimsOfClang-SpawnGroup-Ghost</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionsProfiles:VictimsOfClang-SpawnConditions-GhostNight]
+        [SpawnConditionsProfiles:VictimsOfClang-SpawnConditions-GhostWeather]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <!--Do not edit-->
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour></Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>
